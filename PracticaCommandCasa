@@ -1,0 +1,499 @@
+dsc: ~ % cd Downloads                                                                                                                                                                                                            ~ 0 9:40:52
+dsc: Downloads % ls                                                                                                                                                                                                    ~/Downloads 0 9:41:19
+2017-11-24.command_line.txt  2017-11-25.command_line(1).txt  2017-11-25.command_line.txt  Basecamp Download.zip
+dsc: Downloads % kwrite 2017-11-24.command_line.txt                                                                                                                                                                    ~/Downloads 0 9:41:21
+kf5.kio.core: couldn't create slave: "klauncher said: Error loading '/usr/lib64/qt5/plugins/kf5/kio/file.so'."
+kf5.kio.core: couldn't create slave: "klauncher said: Error loading '/usr/lib64/qt5/plugins/kf5/kio/file.so'."
+kf5.kio.core: couldn't create slave: "klauncher said: Error loading '/usr/lib64/qt5/plugins/kf5/kio/file.so'."
+kf5.kio.core: couldn't create slave: "klauncher said: Error loading '/usr/lib64/qt5/plugins/kf5/kio/file.so'."
+kf5.kio.core: couldn't create slave: "klauncher said: Error loading '/usr/lib64/qt5/plugins/kf5/kio/file.so'."
+dsc: Downloads % kwrite 2017-11-24.command_line.txt                                                                                                                                                                    ~/Downloads 0 9:42:49
+kf5.kio.core: couldn't create slave: "klauncher said: Error loading '/usr/lib64/qt5/plugins/kf5/kio/file.so'."
+kf5.kio.core: couldn't create slave: "klauncher said: Error loading '/usr/lib64/qt5/plugins/kf5/kio/file.so'."
+kf5.kio.core: couldn't create slave: "klauncher said: Error loading '/usr/lib64/qt5/plugins/kf5/kio/file.so'."
+kf5.kio.core: couldn't create slave: "klauncher said: Error loading '/usr/lib64/qt5/plugins/kf5/kio/file.so'."
+kf5.kio.core: couldn't create slave: "klauncher said: Error loading '/usr/lib64/qt5/plugins/kf5/kio/file.so'."
+
+^C
+dsc: Downloads 130 % kwrite 2017-11-24.command_line2.py                                                                                                                                                                ~/Downloads 0 9:43:58
+^C
+dsc: Downloads 130 % cd                                                                                                                                                                                                ~/Downloads 0 9:54:54
+dsc: ~ % CD                                                                                                                                                                                                                      ~ 0 9:55:00
+zsh: command not found: CD
+dsc: ~ 127 %                                                                                                                                                                                                                     ~ 0 9:55:10
+dsc: ~ 130 % cd                                                                                                                                                                                                                  ~ 0 9:55:15
+dsc: ~ % cd Downloads                                                                                                                                                                                                            ~ 0 9:55:17
+dsc: Downloads % ls                                                                                                                                                                                                    ~/Downloads 0 9:55:33
+2017-11-24.command_line2.py  2017-11-24.command_line.txt  2017-11-25.command_line(1).txt  2017-11-25.command_line.txt  Basecamp Download.zip
+dsc: Downloads % cat 2017-11-24.command_line.txt                                                                                                                                                                       ~/Downloads 0 9:55:41
+sudo dnf install dolphin util-linux-user
+ping google.es
+ls
+cd Data
+ls
+ls airline_tickets
+ls challenge
+ls opentraveldata
+cd ..
+ls
+cd Repositories
+ls
+cd Data-Science-code
+ls
+cd ..
+pwd
+cd
+pwd
+cd Repositories
+cd -
+git 
+git clone https://github.com/iht/master-data-science-vi-ed.git
+ls
+cd master-data-science-vi-ed
+ls
+cat README.md
+kwrite README.md
+git status
+git add README.md
+git status
+git commit
+git push
+cd
+kwrite .gitconfig
+cd -
+ls
+git status
+cat README.md
+git status
+git log
+git pull
+git log
+kwrite README.md
+git status
+git add README.md
+git commit -m "Otro cambio" 
+git log
+git push
+git pull
+dsc: Downloads %                                                                                                                                                                                                       ~/Downloads 0 9:57:44
+dsc: Downloads %                                                                                                                                                                                                      ~/Downloads 0 10:14:41
+dsc: Downloads 130 % git                                                                                                                                                                                              ~/Downloads 0 10:14:45
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+dsc: Downloads 1 % git init ConsolaLinuxCasa                                                                                                                                                                          ~/Downloads 0 10:14:47
+Initialized empty Git repository in /home/dsc/Downloads/ConsolaLinuxCasa/.git/
+dsc: Downloads % git                                                                                                                                                                                                  ~/Downloads 0 10:16:26
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+dsc: Downloads 1 % git push                                                                                                                                                                                           ~/Downloads 0 10:22:04
+fatal: Not a git repository (or any of the parent directories): .git
+dsc: Downloads 128 % git log                                                                                                                                                                                          ~/Downloads 0 10:22:11
+fatal: Not a git repository (or any of the parent directories): .git
+dsc: Downloads 128 % cd                                                                                                                                                                                               ~/Downloads 0 10:23:17
+dsc: ~ % git                                                                                                                                                                                                                    ~ 0 10:23:22
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+dsc: ~ 1 % ls                                                                                                                                                                                                                   ~ 0 10:23:24
+anaconda3/  Data/  Desktop/  Documents/  Downloads/  first_dir/  first_linuxcommands.2017-11-25  hello-world  Music/  my_dir/  Pictures/  Public/  R/  Repositories/  Templates/  top2.txt  Videos/
+dsc: ~ % cd Downloads                                                                                                                                                                                                           ~ 0 10:24:38
+dsc: Downloads % ls                                                                                                                                                                                                   ~/Downloads 0 10:24:57
+2017-11-24.command_line2.py  2017-11-24.command_line.txt  2017-11-25.command_line(1).txt  2017-11-25.command_line.txt  Basecamp Download.zip  ConsolaLinuxCasa/
+dsc: Downloads %                                                                                                                                                                                                      ~/Downloads 0 10:24:59
+dsc: Downloads 130 % cd                                                                                                                                                                                               ~/Downloads 0 10:26:41
+dsc: ~ % cd Downloads                                                                                                                                                                                                           ~ 0 10:26:45
+dsc: Downloads % ls                                                                                                                                                                                                   ~/Downloads 0 10:26:53
+2017-11-24.command_line2.py  2017-11-24.command_line.txt  2017-11-25.command_line(1).txt  2017-11-25.command_line.txt  Basecamp Download.zip  ConsolaLinuxCasa/
+dsc: Downloads % rm ConsolaLinuxCasa                                                                                                                                                                                  ~/Downloads 0 10:26:54
+rm: cannot remove 'ConsolaLinuxCasa': Is a directory
+dsc: Downloads 1 % rm -r ConsolaLinuxCasa                                                                                                                                                                             ~/Downloads 0 10:27:23
+dsc: Downloads % ls                                                                                                                                                                                                   ~/Downloads 0 10:28:26
+2017-11-24.command_line2.py  2017-11-24.command_line.txt  2017-11-25.command_line(1).txt  2017-11-25.command_line.txt  Basecamp Download.zip
+dsc: Downloads % rm 2017-11-24.command_line2.py                                                                                                                                                                       ~/Downloads 0 10:28:30
+dsc: Downloads % ls                                                                                                                                                                                                   ~/Downloads 0 10:28:43
+2017-11-24.command_line.txt  2017-11-25.command_line(1).txt  2017-11-25.command_line.txt  Basecamp Download.zip
+dsc: Downloads % who                                                                                                                                                                                                  ~/Downloads 0 10:28:45
+dsc      :0           2017-11-28 09:22
+dsc      pts/0        2017-11-28 09:22 (:0)
+dsc      pts/1        2017-11-28 09:40 (:0)
+dsc: Downloads % whoami                                                                                                                                                                                               ~/Downloads 0 10:29:58
+dsc
+dsc: Downloads % cd                                                                                                                                                                                                   ~/Downloads 0 10:30:05
+dsc: ~ % whoami                                                                                                                                                                                                                 ~ 0 10:30:09
+dsc
+dsc: ~ %                                                                                                                                                                                                                        ~ 0 10:30:12
+dsc: ~ 130 % whoami                                                                                                                                                                                                             ~ 0 10:30:25
+dsc
+dsc: ~ % pwd                                                                                                                                                                                                                    ~ 0 10:30:28
+/home/dsc
+dsc: ~ % history                                                                                                                                                                                                                ~ 0 10:30:40
+  411  ls
+  412  cd Downloads
+  413  ls
+  414  cd
+  415  cd Downloads
+  416  ls
+  417  rm ConsolaLinuxCasa
+  418  rm -r ConsolaLinuxCasa
+  419  ls
+  420  rm 2017-11-24.command_line2.py
+  421  ls
+  422  who
+  423  whoami
+  424  cd
+  425  whoami
+  426  pwd
+dsc: ~ % git                                                                                                                                                                                                                    ~ 0 10:31:16
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+dsc: ~ 1 % cd Repositories                                                                                                                                                                                                      ~ 0 10:31:26
+dsc: Repositories %                                                                                                                                                                                                ~/Repositories 0 10:31:47
+dsc: Repositories % git                                                                                                                                                                                            ~/Repositories 0 10:31:48
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+dsc: Repositories 1 % git pull                                                                                                                                                                                     ~/Repositories 0 10:31:50
+fatal: Not a git repository (or any of the parent directories): .git
+dsc: Repositories 128 % git log                                                                                                                                                                                ~/Repositories 0 10:36:45
+fatal: Not a git repository (or any of the parent directories): .git
+dsc: Repositories 128 % git                                                                                                                                                                                    ~/Repositories 0 10:37:32
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+dsc: Repositories 1 % git -C                                                                                                                                                                                   ~/Repositories 0 10:37:35
+No directory given for -C.
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+dsc: Repositories 129 % git master                                                                                                                                                                             ~/Repositories 0 10:37:44
+git: 'master' is not a git command. See 'git --help'.
+dsc: Repositories 1 % git status                                                                                                                                                                               ~/Repositories 0 10:38:06
+fatal: Not a git repository (or any of the parent directories): .git
+dsc: Repositories 128 % cd                                                                                                                                                                                     ~/Repositories 0 10:39:48
+dsc: ~ % cd my_dir/l                                                                                                                                                                                                        ~ 0 10:39:52
+cd: no such file or directory: my_dir/l
+dsc: ~ 1 % ls                                                                                                                                                                                                               ~ 0 10:40:06
+anaconda3/  Data/  Desktop/  Documents/  Downloads/  first_dir/  first_linuxcommands.2017-11-25  hello-world  Music/  my_dir/  Pictures/  Public/  R/  Repositories/  Templates/  top2.txt  Videos/
+dsc: ~ % cd Repositories                                                                                                                                                                                                    ~ 0 10:40:09
+dsc: Repositories % ls                                                                                                                                                                                         ~/Repositories 0 10:40:28
+data-science-toolbox/  master-data-science/
+dsc: Repositories % cd master-data-science                                                                                                                                                                     ~/Repositories 0 10:40:31
+dsc: master-data-science master ± git pull                                                                                                                                                 ~/Repositories/master-data-science 0 10:40:44
+Already up-to-date.
+dsc: master-data-science master ± git man                                                                                                                                                  ~/Repositories/master-data-science 0 10:41:05
+git: 'man' is not a git command. See 'git --help'.
+
+The most similar command is
+        am
+dsc: master-data-science master 1 ± man                                                                                                                                                    ~/Repositories/master-data-science 0 10:41:18
+What manual page do you want?
+dsc: master-data-science master 1 ± 1                                                                                                                                                      ~/Repositories/master-data-science 0 10:41:21
+zsh: command not found: 1
+dsc: master-data-science master 127 ± man                                                                                                                                                  ~/Repositories/master-data-science 0 10:41:26
+What manual page do you want?
+dsc: master-data-science master 1 ± 1                                                                                                                                                      ~/Repositories/master-data-science 0 10:41:30
+zsh: command not found: 1
+dsc: master-data-science master 127 ± man git                                                                                                                                              ~/Repositories/master-data-science 0 10:41:34
+dsc: master-data-science master ± git status                                                                                                                                               ~/Repositories/master-data-science 0 10:42:07
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+dsc: master-data-science master ± git add                                                                                                                                                  ~/Repositories/master-data-science 0 10:57:05
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+dsc: master-data-science master ± git add .                                                                                                                                                ~/Repositories/master-data-science 0 11:06:01
+dsc: master-data-science master ± git commit                                                                                                                                               ~/Repositories/master-data-science 0 11:06:14
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+dsc: master-data-science master 1 ± git push                                                                                                                                               ~/Repositories/master-data-science 0 11:06:39
+Everything up-to-date
+dsc: master-data-science master ± $ git init                                                                                                                                               ~/Repositories/master-data-science 0 11:07:08
+zsh: command not found: $
+dsc: master-data-science master 127 ± git init                                                                                                                                             ~/Repositories/master-data-science 0 11:11:35
+Reinitialized existing Git repository in /home/dsc/Repositories/master-data-science/.git/
+dsc: master-data-science master ± git add                                                                                                                                                  ~/Repositories/master-data-science 0 11:11:40
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+dsc: master-data-science master ± history                                                                                                                                                  ~/Repositories/master-data-science 0 11:12:02
+  442  cd master-data-science
+  443  git pull
+  444  git man
+  445  man
+  446  1
+  447  man
+  448  1
+  449  man git
+  450  git status
+  451  git add
+  452  git add .
+  453  git commit
+  454  git push
+  455  $ git init
+  456  git init
+  457  git add
+dsc: master-data-science master ± history 3000                                                                                                                                             ~/Repositories/master-data-science 0 11:14:45
+fc: no such event: 3000
+dsc: master-data-science master 1 ± history                                                                                                                                                ~/Repositories/master-data-science 0 11:14:59
+  444  git man
+  445  man
+  446  1
+  447  man
+  448  1
+  449  man git
+  450  git status
+  451  git add
+  452  git add .
+  453  git commit
+  454  git push
+  455  $ git init
+  456  git init
+  457  git add
+  458  history 
+  459  history 3000
+dsc: master-data-science master ± touch PracticaCommandCasa                                                                                                                                ~/Repositories/master-data-science 0 11:15:04
+dsc: master-data-science master ± ls                                                                                                                                                       ~/Repositories/master-data-science 0 11:16:00
+PracticaCommandCasa  README.md
+dsc: master-data-science master ± ll                                                                                                                                                       ~/Repositories/master-data-science 0 11:16:03
+total 4.0K
+-rw-rw-r-- 1 dsc dsc  0 Nov 28 11:16 PracticaCommandCasa
+-rw-rw-r-- 1 dsc dsc 85 Nov 24 21:50 README.md
