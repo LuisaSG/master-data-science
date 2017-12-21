@@ -1,0 +1,200 @@
+  788  ps aux
+  789  ps aux | grep console
+  790  cd
+  791  kwrite
+  792  echo $0
+  793  ./column_number.sh "^"
+  794  chmod 777 column_number.sh
+  795  ./column_number.sh "^"
+  796  kwrite column_number.sh
+  797  ./column_number.sh "^"
+  798  kwrite column_number.sh
+  799  ./column_number.sh ~/Data/opentraveldata/optd_aircraft.csv
+  800  kwrite column_number.sh
+  801  ./column_number.sh ~/Data/opentraveldata/optd_aircraft.csv
+  802  kwrite column_number.sh
+  803  ./column_number.sh ~/Data/opentraveldata/optd_aircraft.csv
+  804  kwrite column_number.sh
+  805  cd Data/opentraveldata/
+  806   ./column_number.sh ./optd_por_public.csv
+  807  echo $path
+  808  echo $PATH
+  809  echo $PATH | tr :"\n"
+  810  echo ${PATH}:new_dir
+  811  PATH=${PATH}:new_dir
+  812  PATH
+  813  echo $PATH
+  814  PATH=new_dir:${PATH}
+  815  echo $PATH
+  816  cd
+  817  mkdir my_shell_scripts
+  818  mv ./column_number.sh my_shell_scripts
+  819  ls my_shell_scripts
+  820  PATH=${PATH}:~/
+  821  PATH=${PATH}:~/my_shell_scripts
+  822  echo $PATH | tr : "\n"
+  823  less .zshrc
+  824  echo "PATH=${PATH}:~/my_shell_scripts"
+  825  echo 'PATH=${PATH}:~/my_shell_scripts
+  826  echo 'PATH=${PATH}:~/my_shell_scripts'
+  827  echo 'PATH=${PATH}:~/my_shell_scripts' >> .zshrc
+  828  tail .zshrc\~
+  829  tail .zshrc
+  830  echo $PTH | tr :"\n"
+  831  echo $PTH | tr : "\n"
+  832  cd Data/opentraveldata
+  833  column_number.sh ./optd_airlines.csv
+  834  column_number.sh ./optd_airlines.csv "^"
+  835  cd
+  836  cd Repositories
+  837  ls
+  838  cd data-science-toolbox
+  839  cd 
+  840  cd Data
+  841  cd opentraveldata
+  842  csvlook -d optd_aircraft.csv | less -S
+  843  csvlook -d "^"  optd_aircraft.csv | less -S
+  844  csvtat -d "^" optd_aircraft.csv | less -S
+  845  csvstat -d "^" optd_aircraft.csv | less -S
+  846  head -n 1 optd_airlines.csv | less
+  847  csvcut -d "^" -c name | head
+  848  csvcut -d "^" -c name optd_airlines.csv | head
+  849  csvcut -d "^" -c 8 optd_airlines.csv | head
+  850  csvgrep -d "^" -c name -m "Aero" optd_airlines.csv | head
+  851  csvgrep -d "^" -c name -m "Aero" optd_airlines.csv | wc
+  852  csvgrep -d "^" -c name -m "Aero" optd_airlines.csv | less -S
+  853  csvgrep -d "^" -c name -m "Aero" optd_airlines.csv | csvform at -D "^" less -S
+  854  csvgrep -d "^" -c name -m "Aero" optd_airlines.csv | csvformat -D "^" less -S
+  855  csvgrep -d "^" -c name -m "Aero" optd_airlines.csv | csvformat -D "^" | less -S
+  856  csvsql -d "^" optd_por_public.csv
+  857  csvsql -d "^" -i postgresql optd_por_public.csv
+  858  cd
+  859  psql -l
+  860  psql
+  861  sudo dnf install wget
+  862  wget http://raw.gitbusercontent.com/masterdatascience/postgres/master/my_fb_friends.csv
+  863  wget https;//raw.gitubusercontent.com/masterdatascience/postgres/master/my_ldin_contacts.csv
+  864  wget https;//raw.githubusercontent.com/masterdatascience/postgres/master/my_ldin_contacts.csv
+  865  wget https://raw.githubusercontent.com/masterdatascience/postgres/master/my_ldin_contacts.csv
+  866  git clone http://github.com/masterdatascience/postgres
+  867  postgres
+  868  psql
+  869  cat my_fb_friends.csv
+  870  wget https;//raw.gitubusercontent.com/masterdatascience/postgres/master/my_ldin_contacts.csv
+  871  wget http://raw.githubusercontent.com/masterdatascience/postgres/master/my_fb_friends.csv
+  872  cat my_fb_friends.csv.1
+  873  rm my_fb_friends.csv
+  874  mv my_fb_friends.csv.1 my_fb_friends.csv
+  875  cat my_ldin_contacts.csv
+  876  cat ./my_ldin_contacts.csv
+  877  echo"drop table if exists linkedin" > psql_create_lkin.sql
+  878  echo "drop table if exists linkedin" > psql_create_lkin.sql
+  879  cat psql_create_lkin.sql
+  880  csvsql -d "^" -i postgresql my_ldin_contacts.csv
+  881  mv my_ldin_contacts.csv linkedin
+  882  csvsql -d "^" -i postgresql linkedin
+  883  cat psql_create_lkin.sql
+  884  kwrite psql_create_lkin.sql
+  885  cat ./psql_create_lkin.sql
+  886  psql -d net
+  887  psql -d networking -f ./psql_create_lkin.sql
+  888  kwrite
+  889  kwrite &
+  890  psql
+  891  cd Repositories
+  892  git init this
+  893  cd this
+  894  quit()
+  895  cd ...
+  896  cd .
+  897  python
+  898  echo "print('hello from python')" < hello_world.py
+  899  ipython
+  900  kwrite some_module.py
+  901  echo "export EDITOR=kwrite"
+  902  echo "export EDITOR=kwrite" >> .zshrc
+  903  tail .zshrc
+  904  wq
+  905  jupyter notebook
+  906  cd Untitled\ Folder
+  907  ipython
+  908  jupyter-notebook
+  909  seq 1 2 10
+  910  seq 1 5
+  911  seq 1 2 10 > uniq_ex.txt
+  912  seq 1 10 >> uniq_ex.txt
+  913  cat uniq_ex.txt
+  914  cat uniq_ex | less
+  915  cat uniq_ex.txt | less
+  916  sort uniq_ex.txt
+  917  sort uniq_ex.txt | uniq
+  918  sort uniq_ex.txt | uniq -d
+  919  sort uniq_ex.txt | uniq -c
+  920  sort uniq_ex.txt
+  921  sort -n uniq_ex.txt
+  922  sort -n -r  uniq_ex.txt
+  923  sort -n -u uniq_ex.txt
+  924  sort -nr uniq_ex.txt
+  925  sort -n -r uniq_ex.txt
+  926  sort -nur uniq_ex.txt
+  927  rm uniq_ex.txt
+  928  cd Repositories
+  929  ls
+  930  cd master-data-science
+  931  ls
+  932  where is optd
+  933  cd...
+  934  cd ..
+  935  cd ~
+  936  cd Data
+  937  ls
+  938  cd opentraveldata
+  939  ls
+  940  less optd_aircraft.csv
+  941  less -S optd_aircraft.csv
+  942  ps -ef | less
+  943  history -20
+  944  sort -k2 optd_aircraft.csv
+  945  sort -k 6 optd_airlines.csv
+  946  sort -k2 optd_aircraft.csv| head -5
+  947  head optd_airlines.csv
+  948  head -5 optd_por_public.csv
+  949  ls
+  950  ls | head
+  951  ls | head -n2
+  952  find ~ -type f -size +100M
+  953  find ~ -type f -size +100M -exec ls
+  954  find ~ -type f -size +10M -exec ls
+  955  find ~ -type f -size +10M -exec which ls
+  956  find ~ -type f -size +10M
+  957  find ~ -type f -size -10M
+  958  find ~ -type f -size -10M -exec ñs -sh
+  959  find ~ -type f -size -10M -exec ls -sh
+  960  seq 15
+  961  seq 15> luisi.txt; seq 9 1 20 >> luisi.txt ; echo""0\n20" >> luisi.txt\n\nq
+  962  cat luisi.txt
+  963  seq 15> luisi.txt; seq 9 1 20 >> luisi.txt\n\nq
+  964  cat luisi.txt
+  965  sort -d luisi.txt
+  966  sort -nu luisi.txt
+  967  cut optd_aircraft.csv
+  968  cut -d "^" -f l,3-5 optd_aircraft.csv
+  969  cut -d "^" -f,3-5 optd_aircraft.csv
+  970  cut -d "^" -f 1,3-5 optd_aircraft.csv
+  971  grep la ai
+  972  ls
+  973  grep air optd_airlines.csv
+  974  grep -n service air
+  975  grep -n "service" aihistory 2
+  976  history -2
+  977  grep -n servi optd_airlines.csv
+  978  grep -i servi optd_airlines.csv
+  979  grep -n -i servi optd_airlines.csv
+  980  grep -E servi optd_airlines.csv
+  981  grep -E "Case" optd_airlines.csv
+  982  grep -E "$" optd_airlines.csv
+  983  grep -E "[1-5] {2}"
+  984  seq 5 5 20 | grep -E "[1-5] {2}"
+  985  seq 5 5 20
+  986  seq 5 5 20 | grep -E "[1-5]{2}"
+  987  seq 5 5 20 | grep "[1-5]{2}"
